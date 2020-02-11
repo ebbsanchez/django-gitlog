@@ -1,0 +1,5 @@
+include LICENSE
+include README.rst
+recursive-include gitlog/static *
+recursive-include gitlog/templates *
+recursive-include docs *

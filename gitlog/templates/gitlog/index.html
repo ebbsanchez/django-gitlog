@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+{% block head %}
+	{% load static %}
+	<link rel="stylesheet" href="{% static 'gitlog/daygram.css' %}">
+{% endblock head %}
+{% block content %}
+<div class="container">
+	
+</div>
+	
+	<div class="container">
+		<h5>
+		Commit Journal
+		<span class="grey-text" style="opacity: 80%; font-size: 60%;">
+			{{ commits_count }} Commits,
+			{{ days_of_work }} Days,
+			{{ line_of_code }} Lines of code.
+			
+		</span>
+		</h5>
+		<div id="commits" class="daygram">
+			{% for commit in commits %}
+				<div class="day">
+					<div class="date">
+						<div class="content">
+							<p>{{ commit.month }}<br>{{ commit.day }}</p>
+						</div>
+					</div>
+					<div class="message">
+						{% if commit.branch == 'master' %}
+							<span class="branch orange-text text-darken-4">{{ commit.branch }}</span>
+						{% else %}
+							<span class="branch green-text text-darken-3">{{ commit.branch }}</span>
+						{% endif %}
+						{{ commit.commit_note }}
+						<span class="alignright">
+							<span class="orange-text text-darken-4">{{ commit.insertions_count }}+</span>
+							<span class="teal-text text-darken-4">{{ commit.deletions_count }}-</span>
+						</span>
+						<div style="clear:both;"></div>
+					</div>
+				</div>
+				
+				<br>
+			{% endfor %}
+		</div>
+	</div>
+	
+	<script>
+	var days = $('.day .date .content p');
+	var current_date = "";
+	var switcher = true;
+	days.each(function(){
+		if (this.innerHTML != current_date) {
+			current_date = this.innerHTML;
+			switcher = !switcher;
+		}
+		
+		if (this.innerHTML == current_date) {
+			if (switcher) {
+				$(this).closest('.day').addClass('diffcolor');
+			}
+		}
+	});
+	</script>
+{% endblock content %}

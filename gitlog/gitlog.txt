@@ -1,0 +1,590 @@
+commit 85a7a477cfb7bf735a99f5e1bf44034c9355f049 (HEAD -> master, heroku/master)
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Thu Feb 6 22:48:32 2020 +0800
+
+    ...fixing silly typo..no.2
+
+ 1 file changed, 1 deletion(-)
+
+commit df1345ceb58b3ffe8807b308d610e2fcdbf3d361
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Thu Feb 6 22:40:22 2020 +0800
+
+    ...fixing silly typo..
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 3c343d66eb57f503b0246c8dbf649e0d2e4cb971
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Thu Feb 6 22:29:44 2020 +0800
+
+    updating gitlog for deploy enviroment.
+
+ 3 files changed, 577 insertions(+), 4 deletions(-)
+
+commit 2677400f3b17699911535ea1bf00a63d3bdce729
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Thu Feb 6 21:22:52 2020 +0800
+
+    Update the requirements.txt
+
+ 1 file changed, 32 insertions(+)
+
+commit b99d1436f1cd7339f56f8b9ae0d79422048f4729
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Thu Feb 6 21:20:09 2020 +0800
+
+    Update the production settings.
+
+ 1 file changed, 4 insertions(+)
+
+commit 98741928e53694438e0dbccdc79cc2372b63723a (gitlog_index)
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Thu Feb 6 20:35:08 2020 +0800
+
+    Styling the new index page.
+
+ 6 files changed, 147 insertions(+), 24 deletions(-)
+
+commit 110be693352883ca911102f0db73a6abd77f3ce1 (heroku/gitlog_index)
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Wed Feb 5 17:47:56 2020 +0800
+
+    Add gitlog app into index.
+
+ 4 files changed, 127 insertions(+), 7 deletions(-)
+
+commit 9485c38415f7f66e31a40c4bbe6f52f368529601
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Wed Feb 5 02:19:17 2020 +0800
+
+    Add 'unique' to hash.
+
+ 1 file changed, 4 insertions(+)
+
+commit d6b3719f1080f39f2e379587d0d57d9f14dea9c3
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Tue Feb 4 22:08:48 2020 +0800
+
+    backup
+
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 96395d6f32926c88cc9cbea02cdd369c2edee673
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Tue Feb 4 22:05:15 2020 +0800
+
+    chmod +x
+
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 37489594d7348a8fea994d376c3ad5c079008e5e
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Tue Feb 4 22:00:05 2020 +0800
+
+    Add gitlog app. All the Commit log saved to database, also we there is an index page to show the results and run the git parsing code.
+
+ 17 files changed, 381 insertions(+), 30 deletions(-)
+
+commit bd994b12702522610864f66216b988ea7dc9533b
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Mon Feb 3 21:49:00 2020 +0800
+
+    Working on function of parsing gitlog.
+
+ 2 files changed, 616 insertions(+)
+
+commit dc37e064ad9189f13dc45f9d5543240afbd44cbc (origin/master)
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Sun Feb 2 07:45:20 2020 +0800
+
+    Tweaking
+
+ 3 files changed, 24 insertions(+), 123 deletions(-)
+
+commit b0698f2c0206ccc42106dcaabdcdacfbc3cd4fe9 (workflow-chart)
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Sun Feb 2 07:30:34 2020 +0800
+
+    Basic workflow chart view/model/url/templates/admin.
+
+ 22 files changed, 224 insertions(+), 400 deletions(-)
+
+commit 1cdd748d6a30e7e89beb6a8716d86c9a5b0a4688 (diary)
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Fri Jan 31 15:27:37 2020 +0800
+
+    Create/Use Diary model.
+
+ 39 files changed, 3433 insertions(+), 10 deletions(-)
+
+commit 537dcf9f3b3b0f4ff295a599004c5ea2777935ea
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Sun Jan 26 16:03:46 2020 +0800
+
+    update some details
+
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 4fe98c53165e1c4c4b5309c78020990c50080811
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Thu Jan 23 15:27:47 2020 +0800
+
+    typo
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 9c111f7bbc82ce19470ec7085b22a9515dd65dd7
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Thu Jan 23 01:58:08 2020 +0800
+
+    Add action to day7
+
+ 1 file changed, 3 insertions(+)
+
+commit 962c12e4a2fb983bb298530afc3e5618e2686eb8
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Thu Jan 23 00:27:02 2020 +0800
+
+    Production setting update. static file bug.....
+
+ 4 files changed, 6 insertions(+), 1 deletion(-)
+
+commit f4d66f9edb525fd2d5662993b7d315eb7378f956
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Wed Jan 22 23:48:16 2020 +0800
+
+    Production setting update. static file bug....
+
+ 1 file changed, 4 deletions(-)
+
+commit 38e953d35180a76a456be9b2208dc87d8f22ddc7
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Wed Jan 22 23:44:36 2020 +0800
+
+    Production setting update. static file bug..
+
+ 2 files changed, 1 insertion(+), 33 deletions(-)
+
+commit e4faddfcfbee65711550f6197c0d52e34843825b
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Wed Jan 22 23:29:13 2020 +0800
+
+    Production setting update. static file bug..
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit ce92d7891a00347179b78549aa8ca9a17813e340
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Wed Jan 22 23:23:23 2020 +0800
+
+    Production setting update. static file bug.
+
+ 1 file changed, 1 deletion(-)
+
+commit 75d674320bee5f2ea29f115f7a556299a84f0bc9
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Wed Jan 22 23:18:11 2020 +0800
+
+    Styling fix. Update production Setting.
+
+ 2 files changed, 8 insertions(+), 2 deletions(-)
+
+commit d67fc7dcc1ccadb60f6be62bdd400a6c95ba9982
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Wed Jan 22 23:09:48 2020 +0800
+
+    Finish Account app and do a lot of styling, bugs fixing.
+
+ 23 files changed, 452 insertions(+), 122 deletions(-)
+
+commit 76aea43b1381eebbbff0ca0ebc4ea4bc880b21d5
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Wed Jan 22 16:45:32 2020 +0800
+
+    Index version of materialize bug.
+
+ 1 file changed, 50 insertions(+), 25 deletions(-)
+
+commit 270a66e6ae7b66004f8862c0df397474a2ae88a0
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Sun Jan 19 04:58:34 2020 +0800
+
+    Add match-height.js to bypass the bug in index
+
+ 11 files changed, 814 insertions(+), 7 deletions(-)
+
+commit d30f0962ed0f648032563dbb6a38cf54e3a56460
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Fri Jan 17 22:57:29 2020 +0800
+
+    Fixing bug..
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 52f880cdfba474d192f222c9d7029c000314daaa
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Fri Jan 17 22:54:46 2020 +0800
+
+    Fixing bug..
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 1e063b1a4843ee2a2c5e946e41f6ca37c2fd8516
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Fri Jan 17 22:47:24 2020 +0800
+
+    Update requirement.txt and setting for django-extentions
+
+ 2 files changed, 24 insertions(+), 7 deletions(-)
+
+commit 36c67a2e3d46401b22f1747ffddaa6e4b5cb7174
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Fri Jan 17 22:36:44 2020 +0800
+
+    Write Test and /test page.
+
+ 186 files changed, 16370 insertions(+), 77 deletions(-)
+
+commit 1a86994c5ba9d746a593edb6d438e0a858099dc1
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Thu Jan 16 00:17:28 2020 +0800
+
+    Add information of day3
+
+ 1 file changed, 6 insertions(+), 2 deletions(-)
+
+commit 239627f098a89ca84445cb2383815165b83b4b66
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Thu Jan 16 00:11:33 2020 +0800
+
+    Add Day3 information
+
+ 1 file changed, 15 insertions(+), 5 deletions(-)
+
+commit fcfc1f6b36959335938a7c41a97d4b029f23bc5d
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Wed Jan 15 23:44:06 2020 +0800
+
+    Adjust the notice section
+
+ 2 files changed, 34 insertions(+), 12 deletions(-)
+
+commit 8f19e4b1cb3658bd991aa73b8a991e05e7ed3d2a (styling)
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Wed Jan 15 23:27:00 2020 +0800
+
+    Add materialize.css and styling
+
+ 10 files changed, 239 insertions(+), 131 deletions(-)
+
+commit 75af46f90e49bc1166bbce8aa013c618a65f8fef
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Wed Jan 15 14:48:27 2020 +0800
+
+    add notes
+
+ 2 files changed, 4 insertions(+), 1 deletion(-)
+
+commit 4ac70f5c9dedb740ba0c0470291afeb948a692e6
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Wed Jan 15 14:47:41 2020 +0800
+
+    Comment boken production feature. Wait to fix.
+
+ 4 files changed, 53 insertions(+), 50 deletions(-)
+
+commit 905bf8cf72efaa42bd527d79553c1ffc2397ae2b
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Tue Jan 14 23:26:44 2020 +0800
+
+    Fix BUG
+
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+commit 91c2d114ede6e4d1985fb799d618fe117cf46a21
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Tue Jan 14 23:12:40 2020 +0800
+
+    Fix BUG
+
+ 2 files changed, 1 insertion(+), 1 deletion(-)
+
+commit 53caa3365a6f41457cc0fa7c0b8cad42e9ab44a8
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Tue Jan 14 23:10:03 2020 +0800
+
+    Fix BUG
+
+ 1 file changed, 1 deletion(-)
+
+commit a99a4571957af75eb0ebf2ff60653804b7f07bde
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Tue Jan 14 23:05:16 2020 +0800
+
+    Fix BUG
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit d4c16fdd04476ebddb787f1ea52807afa77c8ed2
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Tue Jan 14 23:00:08 2020 +0800
+
+    Fix Typo
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit b1a032781d82a87f50be8b469eb53704e6fe8fe8
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Tue Jan 14 22:47:41 2020 +0800
+
+    Funtion for production
+
+ 3 files changed, 35 insertions(+), 34 deletions(-)
+
+commit 095b98a93ce07183126c8b3d76790568c6ffe348
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Tue Jan 14 22:27:07 2020 +0800
+
+    Update Production Settings
+
+ 1 file changed, 3 insertions(+)
+
+commit ec76fec16d5872003b9282c2afd912270c8b4eeb
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Tue Jan 14 22:23:59 2020 +0800
+
+    Add funtion for seeding in production.
+
+ 1 file changed, 37 insertions(+)
+
+commit 126e5f85451716c4f15edd672740efc4c7df0827
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Tue Jan 14 22:03:04 2020 +0800
+
+    Finish Merging
+
+ 4 files changed, 2 insertions(+), 2 deletions(-)
+
+commit 51e8bc9a6eef46376e5b0ba1664b58cb747ef3c4 (merging)
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Tue Jan 14 22:01:31 2020 +0800
+
+    Finish Merging
+
+ 42 files changed, 693 insertions(+), 13 deletions(-)
+
+commit f927a87133ee34bbe626ea0389f7f369cf13981b
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Mon Jan 13 22:52:19 2020 +0800
+
+    Learn to do shopping Cart
+
+ 39 files changed, 595 insertions(+), 26 deletions(-)
+
+commit 08fc9432c848503735c9193fa18284c4ba9fd587
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Sun Jan 12 02:32:00 2020 +0800
+
+    Demo Done. But not working. Cart Don't work and i'm stucked.
+
+ 9 files changed, 283 insertions(+), 5 deletions(-)
+
+commit 5f46da8e57c4d4a0a6395bec16897a25bb8a7a47
+Merge: b4a104b e54db32
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Sat Jan 11 18:10:09 2020 +0800
+
+    merge wagtail
+
+commit e54db325fcc0d6134af1cc7a41841a3ee1f7fbe8 (wagtail)
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Sat Jan 11 18:07:30 2020 +0800
+
+    add wagtail blog and image gallery.(do tag section next)
+
+ 54 files changed, 1005 insertions(+)
+
+commit cfbacde46e445f58e5a9331769f6d58a104902a8
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Fri Jan 10 17:51:47 2020 +0800
+
+    add wagtail again?
+
+ 4490 files changed, 506073 insertions(+), 21195 deletions(-)
+
+commit b4a104b1e4a67613724cc6671bf656b428284c20
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Fri Jan 10 17:42:07 2020 +0800
+
+    init for wagtail
+
+ 4490 files changed, 506073 insertions(+), 21195 deletions(-)
+
+commit 59efc6219ce89ebcb032b9a138af5c08862ac9c7
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Fri Jan 10 02:23:48 2020 +0800
+
+    turn off DEBUG
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit a334cf247bf8ea3db69ad85712a649c91737d94b
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Fri Jan 10 02:17:33 2020 +0800
+
+    Add forms.py, BUG ALL FIXED
+
+ 3 files changed, 29 insertions(+), 15 deletions(-)
+
+commit 7a5599c7f00b4f05d9465f3b0fc69e279569cba8
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Wed Jan 8 19:39:43 2020 +0800
+
+    Add under-development notice
+
+ 2 files changed, 27 insertions(+), 3 deletions(-)
+
+commit 9a506aa10214f542056fe3f34820c0a1dd7ed666
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Wed Jan 8 19:17:43 2020 +0800
+
+    fixing bug
+
+ 1 file changed, 1 insertion(+)
+
+commit d78386357137189a84cad83cbc33197d1f0de2ff
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Wed Jan 8 19:15:46 2020 +0800
+
+    update production settings
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit de31674cc0e7f937ed9aa470e03d181d442a2141
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Wed Jan 8 19:03:22 2020 +0800
+
+    Create index page and seperat hmlt file.
+
+ 9 files changed, 47 insertions(+), 4 deletions(-)
+
+commit c2c72a9c1184c5435fc74a75a79c0ae179d3aa8f
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Wed Jan 8 17:04:31 2020 +0800
+
+    lib update
+
+ 31 files changed, 1777 insertions(+)
+
+commit f2e09a380f450d3e62b18f0486b503a204cab70e
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Tue Jan 7 20:23:04 2020 +0800
+
+    production bug fix
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 3f54e992a2129c5b2a9bcd11ff3a39eccc1cb151
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Tue Jan 7 20:21:11 2020 +0800
+
+    production bug fix
+
+ 2 files changed, 4 insertions(+), 13 deletions(-)
+
+commit d42e8d26aa2a42dbe957016a15d155f3307202a6
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Tue Jan 7 20:13:31 2020 +0800
+
+    bug fix
+
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+commit 4646d0c28ca0c18f4af8864af65ac043ab7d5280
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Tue Jan 7 20:11:54 2020 +0800
+
+    bug fix
+
+ 1 file changed, 7 insertions(+), 5 deletions(-)
+
+commit 113d468022d51d641c591a9d8a344b4f3308f8be
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Tue Jan 7 20:09:45 2020 +0800
+
+    change from sqlite3 to postgresql.
+
+ 20 files changed, 4202 insertions(+), 3 deletions(-)
+
+commit 6b07dcbd4be7476fffb0db5b129b358847305650
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Tue Jan 7 18:30:31 2020 +0800
+
+    fixed typo
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 530e52b42ac6bbd82acbbfb0dcb81ea7dee7da05
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Tue Jan 7 18:27:32 2020 +0800
+
+    fixed typo
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit d6c5bc84e3c754507625806199cae030b0237a0d (add-migrations)
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Tue Jan 7 18:23:49 2020 +0800
+
+    Database migrations
+
+ 1 file changed, 23 insertions(+)
+
+commit 049b7c766df485b8fe163bf9d3f9e46143497634
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Tue Jan 7 18:21:46 2020 +0800
+
+    Add Release Phase to Procfile
+
+ 1 file changed, 1 insertion(+)
+
+commit 671b3cd0118da8aa1764a30cea6053b96f3dffe3
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Tue Jan 7 18:05:01 2020 +0800
+
+    add allowed host
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 81fb740c94308f5a207bf3d0b9e2dfd99fe5876c
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Tue Jan 7 18:02:47 2020 +0800
+
+    Bug fix
+
+ 1 file changed, 1 insertion(+)
+
+commit 97680f2566205fa4f394a4801a6a7743d6659086
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Tue Jan 7 17:53:42 2020 +0800
+
+    modify setting to dev version.
+
+ 1 file changed, 43 insertions(+), 14 deletions(-)
+
+commit dfea60085d6b3f4529bab12d40cdab3e8bf46fa0
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Tue Jan 7 17:46:47 2020 +0800
+
+    Add apps.
+
+ 1 file changed, 74 insertions(+), 1 deletion(-)
+
+commit 6dfb108098c32f702cdeec972b5c66b84b7eb73c
+Author: Jack Sanchez <evo@gms.tku.edu.tw>
+Date:   Tue Jan 7 17:35:05 2020 +0800
+
+    First commit
+
+ 4594 files changed, 648186 insertions(+)

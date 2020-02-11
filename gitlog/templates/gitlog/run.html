@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block content %}
+	<div class="container">
+		<form method="POST" action=" {% url "gitlog:run" %}">
+			{% csrf_token %}
+			{{ message }}
+			<br>
+			<input type="submit" value="Run GitLog">
+		</form>
+		<hr>
+		<h1>Commits</h1>
+		{% for commit in commits %}
+			<div>
+				
+				<ul>
+					<li>hash: {{ commit.commit_hash }}</li>
+					<li>Commit by {{ commit.author }}</li>
+					
+					<li>Date: {{ commit.datetime_object}}</li>
+					<li>Message: {{ commit.commit_note }}</li>
+					<li>{{ commit.file_changed_count }} CHANGED</li>
+					<li>{{ commit.insertions_count }} INSERTED</li>
+					<li>{{ commit.deletions_count }} DELETED</li>
+				</ul>
+			</div>
+		{% endfor %}
+	</div>
+{% endblock content %}
