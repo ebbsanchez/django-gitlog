@@ -3,10 +3,10 @@ MANIFEST.in
 README.rst
 setup.cfg
 setup.py
-django_gitlog.egg-info/PKG-INFO
-django_gitlog.egg-info/SOURCES.txt
-django_gitlog.egg-info/dependency_links.txt
-django_gitlog.egg-info/top_level.txt
+django_polls.egg-info/PKG-INFO
+django_polls.egg-info/SOURCES.txt
+django_polls.egg-info/dependency_links.txt
+django_polls.egg-info/top_level.txt
 gitlog/__init__.py
 gitlog/admin.py
 gitlog/apps.py
@@ -20,6 +20,5 @@ gitlog/migrations/0002_auto_20200204_1304.py
 gitlog/migrations/0003_auto_20200206_1228.py
 gitlog/migrations/__init__.py
 gitlog/static/gitlog/daygram.css
-gitlog/templates/gitlog/base.html
 gitlog/templates/gitlog/index.html
 gitlog/templates/gitlog/run.html

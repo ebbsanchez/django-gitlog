@@ -1,6 +1,6 @@
-=====
+======
 GitLog
-=====
+======
 
 GitLog is a Django app that create reusable commit-log datas for furthur machining
 
@@ -15,10 +15,10 @@ Quick start
 
     INSTALLED_APPS = [
         ...
-        'polls',
+        'gitlog',
     ]
 
-2. Include the polls URLconf in your project urls.py like this::
+2. Include the gitlog URLconf in your project urls.py like this::
 
     path('gitlog/', include("gitlog.urls", namespace='gitlog')),
 

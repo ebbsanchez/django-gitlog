@@ -6,9 +6,9 @@ Home-page: https://www.example.com/
 Author: Jack Sanchez
 Author-email: evo@gms.tku.edu.tw
 License: BSD-3-Clause
-Description: =====
+Description: ======
         GitLog
-        =====
+        ======
         
         GitLog is a Django app that create reusable commit-log datas for furthur machining
         
@@ -23,10 +23,10 @@ Description: =====
         
             INSTALLED_APPS = [
                 ...
-                'polls',
+                'gitlog',
             ]
         
-        2. Include the polls URLconf in your project urls.py like this::
+        2. Include the gitlog URLconf in your project urls.py like this::
         
             path('gitlog/', include("gitlog.urls", namespace='gitlog')),
         
@@ -39,7 +39,7 @@ Description: =====
 Platform: UNKNOWN
 Classifier: Environment :: Web Environment
 Classifier: Framework :: Django
-Classifier: Framework :: Django :: 2.2.9  # Replace "X.Y" as appropriate
+Classifier: Framework :: Django :: 2.2
 Classifier: Intended Audience :: Developers
 Classifier: License :: OSI Approved :: BSD License
 Classifier: Operating System :: OS Independent
