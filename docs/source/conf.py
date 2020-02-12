@@ -22,7 +22,7 @@ copyright = '2020, Jack Sanchez'
 author = 'Jack Sanchez'
 
 # The full version, including alpha/beta/rc tags
-release = '0.2'
+release = '0.3'
 
 
 # -- General configuration ---------------------------------------------------
