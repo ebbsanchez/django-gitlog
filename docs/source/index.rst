@@ -43,7 +43,6 @@ If you got error of::
 
 try to run git log in your own shell and see if anything get wrong.
 
-sphinx-build -T . _build/html
 
 .. toctree::
    :maxdepth: 2
