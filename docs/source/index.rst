@@ -48,6 +48,7 @@ try to run git log in your own shell and see if anything get wrong.
 .. toctree::
    :maxdepth: 2
 
+   contents
    LICENSE
 
 
