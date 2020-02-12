@@ -1,6 +1,6 @@
 Metadata-Version: 1.1
 Name: django-gitlog
-Version: 0.1
+Version: 0.2
 Summary: A Django app parse and save git log.
 Home-page: https://www.example.com/
 Author: Jack Sanchez
